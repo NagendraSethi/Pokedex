@@ -1,0 +1,35 @@
+.pokedex-redirect{
+    text-align: center;
+}
+.pokemon-details-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.pokemon-detail-name{
+    font-size: xx-large;
+    letter-spacing: 2rem;
+}
+.pokemon-attribute{
+    display: flex;
+    font-size: x-large;
+    gap: 2rem;
+}
+
+.pokemon-types{
+    display: flex;
+}
+
+.type{
+    font-size: x-large;
+    border: 1px solid grey;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background-color: azure;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
