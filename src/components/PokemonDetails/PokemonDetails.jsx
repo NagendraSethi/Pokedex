@@ -1,10 +1,9 @@
 import "./PokemonDetails.css"
-import { useParams, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import usePokemon from "../hooks/usePokemon";
 
-const PokemonDetails = () => {
-    const { id } = useParams();
-    const [pokemon] = usePokemon(id);
+const PokemonDetails = ({pokemonName}) => {
+    const [pokemon] = usePokemon(pokemonName);//custom hook
     return (
         <>
         <h1 className="pokedex-redirect">
